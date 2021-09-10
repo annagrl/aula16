@@ -1,0 +1,51 @@
+
+body{
+    background-color: black;
+    color: white;
+}
+
+img:hover{
+    filter:grayscale(100%);
+   }
+   
+h1::first-letter{
+    color:green;
+  }  
+
+h1:hover{
+    color:green;
+  }   
+
+.continue:focus{
+    background-color:green
+}
+
+input[type="checkbox"]:checked{
+    width: 20px;
+    height: 20px;
+}
+
+p:nth-child(3){
+color: green; 
+}
+
+.desabilitado:disabled{
+background-color:yellow    
+}
+
+.desabilitado:enabled{
+    background-color: pink; 
+    }
+
+ul li::marker{
+    color:green;
+}
+
+h1:only-of-type{
+    background-color:gray;
+}
+
+input:optional{
+    background-color:purple
+}
+
